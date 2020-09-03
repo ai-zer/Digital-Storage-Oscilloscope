@@ -91,20 +91,6 @@ void Chip2_Control(void); //  // used for activating chip 2 and de-activating ch
 #define _XTAL_FREQ 16000000  // Frequency of Crystal Oscillator used,need this 
                               // for calling delay function from xc.h library
 
-//char A[]={0b00111111,0b1000100,0b1000100,0b1000100,0b00111111};
-/*void main()
-{
-    Display_Init();
-    Chip1_Control();
-    Page_Address(4);
-    Column_Address(25);
-    for(int i=0;i<5;i++)
-    {
-        Display_Data(A[i]);
-    }
-    while(1);
-}
-*/
 
 
 void Display_Init()
